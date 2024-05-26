@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = false
+name = "pip_conf_index_global"
+
+[packages]
+langchain = "*"
+langchain-community = "*"
+gradio = "*"
+diffusers = "*"
+transformers = "==4.35.0"
+accelerate = "*"
+gradio-client = "*"
+scipy = "*"
+update = "*"
+setuptools = "*"
+omegaconf = "==2.3.0"
+pillow = "==10.1.0"
+einops = "==0.7.0"
+trimesh = "==4.0.5"
+rembg = "*"
+huggingface-hub = "*"
+xatlas = "==0.0.9"
+moderngl = "==5.10.0"
+torchmcubes = {git = "https://github.com/tatsy/torchmcubes.git"}
+imageio = {extras = ["ffmpeg"], version = "*"}
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
+# run command: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
